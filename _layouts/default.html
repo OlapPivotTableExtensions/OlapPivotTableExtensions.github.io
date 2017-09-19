@@ -28,36 +28,56 @@
         </header>
     </div>
 
+<style>
+.button {
+    width: 80px;
+    margin: 0px 2px;
+    padding: 5px 10px;
+    height: 35px;
+    
+    background: #bbbbbb;
+    color:black;
+    font-weight: bold;
+}
+
+.button:hover  {
+    background: #0090ff;
+    color:white;
+}
+
+.button:hover a {
+    color:white;
+}
+
+.button a
+{
+    text-align: center;
+    vertical-align: middle;
+    margin:auto;
+}
+.button a:hover {
+    color:white;
+}
+    </style>
+
+    <!--accomodate tall download button-->
+    <div style="height:30px"></div>
+
     <div id="menu-wrap" class="outer">
         <div class="inner">
             <section id="menu">
                 <a href="{{site.url}}"><span class="button">Home</span></a>
-                <a href="{{ site.github.public_repositories.OlapPivotTableExtensions.releases_url }}"><span class="button">Releases</span></a>
-                <a href="{{ site.github.public_repositories.OlapPivotTableExtensions.issues_url }}"><span class="button">Issues</span></a>
+                <a href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases"><span class="button">Releases</span></a>
+                <a href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/issues"><span class="button">Issues</span></a>
             </section>
         </div>
     </div>
 
 
-    <!--accomodate tall download button-->
-    <div style="height:30px"></div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
-
-            {{ site.github.public_repositories.OlapPivotTableExtensions.name }}; 
-            {{ site.github.public_repositories.OlapPivotTableExtensions.latest_release.assets[0].browser_download_url }}
-            repositories:<br />
-            {% for repository in site.github.public_repositories %}
-            * [{{ repository.name }}]({{ repository.html_url }}) - {{ repository.latest_release }} -- {{ repository.latest_release.assets[0].browser_download_url }}
-            {% endfor %}            
-            
-            releases:<br />
-            {% for release in site.github.public_repositories.OlapPivotTableExtensions.releases %}
-            * [{{ release.name }}]({{ release.html_url }}) {{ release.assets[0].browser_download_url }}
-            {% endfor %}
-
             {{ content }}
         </section>
     </div>
@@ -67,9 +87,8 @@
         <footer class="inner">
             <a id="forkme_banner" href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions">View Source Code on GitHub</a>
 
-            {% if site.github.is_project_page %}
             <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-            {% endif %}
+
             <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
         </footer>
     </div>
