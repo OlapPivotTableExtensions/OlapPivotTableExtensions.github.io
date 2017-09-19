@@ -10,12 +10,15 @@ This page is currently under construction. The current home page for [OLAP Pivot
 Any calculated members which are part of the Analysis Service cube on the server can be added to PivotTables. But there is no built-in UI to define your own MDX calculations. Adding extra Excel calculations in the cells surrounding the PivotTable has some limitations as they are not part of the PivotTable and can be wiped out if the dimensions of the PivotTable change, and plain Excel calculations must only operate on data visible in the PivotTable.
 
 OLAP PivotTable Extensions let you define your own calculated measures which are private to that particular PivotTable:
+
 ![](Home_AvgTaxFormula.png)
 
 Those calculations appear in the PivotTable just like any other calculations:
+
 ![](Home_AvgTaxPivotTable.png)
 
 They appear in the Field List pane at the very top under the Values grouping:
+
 ![](Home_AvgTaxFieldList.png)
 
 For help with advanced calculation properties for these private PivotTable calculations, or for help with MDX expressions, refer to our [Calculations Help](Calculations-Help) page.
@@ -42,9 +45,9 @@ If a PivotTable is performing poorly or returning incorrect numbers, it may be n
 
 ![](Home_AvgTaxMDX2.png)
 
-Starting with release 0.7.3, you can check the checkbox in the top right in order to send your MDX query to a [web service](http://blogs.msdn.com/b/business_intelligence_labs/archive/2011/09/13/format-mdx-amp-dax-web-service-for-formatting-is-available.aspx) for formatting, thanks to Nick Medveditskov.
+Starting with release 0.7.3, you can check the checkbox in the top right in order to send your MDX query to a [web service](http://blogs.msdn.com/b/business_intelligence_labs/archive/2011/09/13/format-mdx-amp-dax-web-service-for-formatting-is-available.aspx) for formatting, thanks to Nick Medveditskov. Note: This web service is currently down with no ETL on when it will be back up.
 
-The MDX is exactly what is sent to the server with one exception. Any private calculations you've created for your PivotTable are defined as session calculated members. The MDX query exposed on the MDX tab displays the formulas for these calculations as query calculated members in the WITH clause of the MDX query. This allows an administrator to copy and paste the MDX query and troubleshoot it more easily in Management Studio or [MDX Studio](http://www.ssas-info.com/forum/viewforum.php?f=3).
+The MDX is exactly what is sent to the server with one exception. Any private calculations you've created for your PivotTable are defined as session calculated members. The MDX query exposed on the MDX tab displays the formulas for these calculations as query calculated members in the WITH clause of the MDX query. This allows an administrator to copy and paste the MDX query and troubleshoot it more easily in Management Studio or [MDX Studio](https://www.sqlbi.com/tools/mdx-studio/).
 
 
 #### Filtering PivotTable to a List
@@ -94,7 +97,8 @@ Other features include:
 
 The following features are supported by version of Excel:
 
-|| Feature || Excel 2007 || Excel 2010 || [Excel 2013](Excel-2013)(Excel-2013) OLAP || [Excel 2013](Excel-2013)(Excel-2013) Power Pivot || Excel 2016 OLAP || Excel 2016 Power Pivot ||
+Feature | Excel 2007 | Excel 2010 | [Excel 2013](Excel-2013) OLAP | [Excel 2013](Excel-2013) Power Pivot | Excel 2016 OLAP | Excel 2016 Power Pivot |
+------------ | -------------
 | MDX Private Calculated Members | X | X | X |  | X |  |
 | View PivotTable MDX | X | X | X | X | X | X |
 | [Filter PivotTable to a List](Filter-List) | X | X | X | X | X | X |
@@ -114,7 +118,7 @@ The following features are supported by version of Excel:
 	* For older versions, see the [last release to support Excel 2007 and Excel 2010](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases/tag/v0.8.4).
 * Access to a cube on an Analysis Services server or to the built in Excel Data Model (Power Pivot) is required
 * NET Framework version 4.5.2 is required.
-* See the [Download tab](Download tab)(http___olappivottableextend.codeplex.com_releases) for the installer
+* See the [Latest Release page](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases/latest) for the installer and for release notes
 
 #### Troubleshooting Installation
 

@@ -21,7 +21,7 @@
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
             {% if site.show_downloads %}
-            <section id="downloads">
+            <section>
                 <A style="background:url(images/download.png) no-repeat top left;display:block;float:right;width:96px;height:96px;text-indent:-5000px;overflow:hidden" href="{{ site.latest_download_url }}">Download the installer</A>
             </section>
             {% endif %}
@@ -36,10 +36,14 @@
         <section id="main_content" class="inner">
 
             {{ site.github.public_repositories.OlapPivotTableExtensions.latest_release.assets[0].browser_download_url }}
-
-            repositories:<br/>
+            repositories:<br />
             {% for repository in site.github.public_repositories %}
             * [{{ repository.name }}]({{ repository.html_url }}) - {{ repository.latest_release }} -- {{ repository.latest_release.assets[0].browser_download_url }}
+            {% endfor %}            
+            
+            releases:<br />
+            {% for release in site.github.releases %}
+            * [{{ release.name }}]({{ release.html_url }}) {{ release.assets[0].browser_download_url }}
             {% endfor %}
 
             {{ content }}
