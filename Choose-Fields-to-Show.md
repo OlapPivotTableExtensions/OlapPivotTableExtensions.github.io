@@ -4,10 +4,10 @@ In a PivotTable, Excel allows the user to hide or show individual levels from a 
 
 To launch this feature, right click on a member of a hierarchy which is on rows or columns of a PivotTable, choose Show/Hide Fields... Choose Fields to Show...
 
-![](Choose Fields to Show_ShowHideFields.png)
+![](Choose%20Fields%20to%20Show_ShowHideFields.png)
 
 Then a dialog will pop up and allow you to check or uncheck multiple fields (levels) at once:
 
-![](Choose Fields to Show_ChooseFieldsToShow.png)
+![](Choose%20Fields%20to%20Show_ChooseFieldsToShow.png)
 
 Compared to the native Excel feature, not only is this feature fewer clicks, but performance is optimized to refresh the PivotTable as few times as possible.

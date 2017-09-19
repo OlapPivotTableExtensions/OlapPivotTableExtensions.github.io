@@ -44,7 +44,7 @@ You see that the Sales Territory dimension and the Organization dimension both c
 
 #### USE CASE #4: Searching descriptions of fields
 
-Unfortunately, Excel 2007/2010/2013 does not display the description property as a tooltip in the field list [like it should](http://www.artisconsulting.com/blogs/greggalloway/Lists/Posts/Post.aspx?ID=17). The Search feature of OLAP PivotTable Extensions lets you search the description property of every field in the field list:
+Unfortunately, Excel 2007/2010/2013 does not display the description property as a tooltip in the field list [like it should](http://www.artisconsulting.com/blogs/greggalloway/2009/9/22/self-documenting-cubes-in-excel-pivottables). The Search feature of OLAP PivotTable Extensions lets you search the description property of every field in the field list:
 
 ![](Search_SearchDescriptions.png)
 
@@ -90,11 +90,11 @@ As shown in the screenshot above, release 0.8.4 allows searching a specific leve
 
 Cubes contain a vast amount of metadata, and dimensions can be very large, so it is good to know how expensive each type of search will be...
 
-# **FASTEST:** Searching the Field List is the fastest search operation as it is simply searching metadata. If  you uncheck “Exact match” it also searches the Description property and the Folder property, but this does not impact performance significantly. "Measures (caption only)" always just searches the measure caption.
-# **FAST:** Searching a particular hierarchy or level by choosing it out of the “Look in” dropdown, and checking “Exact match” will be very fast as it uses the hash indexes for that dimension.
-# **QUICK:** Searching dimension data with “Exact match” checked and “Search member properties” unchecked is fairly quick as it uses the hash indexes for the dimensions.
-# **SLOW:** Searching dimension data with “Exact match” unchecked is slow as it has to run one query per hierarchy and scan every dimension member. Dimensions are scanned in order of smallest to largest (since smaller dimensions are often used more frequently), so you may see the progress bar moving slower and slower the further it gets.
-# **SLOWEST:** Searching dimension data with “Search member properties” checked is very slow as it has to run one query per hierarchy and scan every dimension member and every member property in addition to the member’s caption. Dimensions are scanned in order of the smallest to the largest.
+* **FASTEST:** Searching the Field List is the fastest search operation as it is simply searching metadata. If  you uncheck “Exact match” it also searches the Description property and the Folder property, but this does not impact performance significantly. "Measures (caption only)" always just searches the measure caption.
+* **FAST:** Searching a particular hierarchy or level by choosing it out of the “Look in” dropdown, and checking “Exact match” will be very fast as it uses the hash indexes for that dimension.
+* **QUICK:** Searching dimension data with “Exact match” checked and “Search member properties” unchecked is fairly quick as it uses the hash indexes for the dimensions.
+* **SLOW:** Searching dimension data with “Exact match” unchecked is slow as it has to run one query per hierarchy and scan every dimension member. Dimensions are scanned in order of smallest to largest (since smaller dimensions are often used more frequently), so you may see the progress bar moving slower and slower the further it gets.
+* **SLOWEST:** Searching dimension data with “Search member properties” checked is very slow as it has to run one query per hierarchy and scan every dimension member and every member property in addition to the member’s caption. Dimensions are scanned in order of the smallest to the largest.
 
 
 _Warning:_ If you have ROLAP dimensions, this searching dimension data could be very slow, so it is recommended that you search individual hierarchies by picking them out of the “Look in” dropdown. Talk to your Analysis Services administrator to determine if you have any ROLAP dimensions.
@@ -104,8 +104,8 @@ _Warning:_ If you have ROLAP dimensions, this searching dimension data could be 
 
 Starting with release 0.8.4, a number of search performance optimizations were implemented. Search runs a little faster than before when searching case insensitive cubes. Also, search performance is improved by detecting whether searching on the server or on the client will be quicker under current network conditions. 
 
-_Known Issue:_ Especially when searching for multiple search terms, the performance may be better when [workitem:"Exact match" is unchecked](25642). This will hopefully be resolved in a future release.
+_Known Issue:_ Especially when searching for multiple search terms, the performance may be better when ["Exact match" is unchecked](https://olappivottableextend.codeplex.com/workitem/25642). This will hopefully be resolved in a future release.
 
 
 
-_Note:_ The search feature code was designed so that the [CubeSearcher class](https://olappivottableextend.svn.codeplex.com/svn/OlapPivotTableExtensions/CubeSearcher.cs) has no knowledge of Excel. That makes it completely standalone so it can be reused in other custom UIs. Just be sure to credit this project and post a discussion topic if you make enhancements so we can consider pushing those enhancements back into OLAP PivotTable Extensions.
+_Note:_ The search feature code was designed so that the [CubeSearcher class](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/blob/master/OlapPivotTableExtensions/CubeSearcher.cs) has no knowledge of Excel. That makes it completely standalone so it can be reused in other custom UIs. Just be sure to credit this project and post a discussion topic if you make enhancements so we can consider pushing those enhancements back into OLAP PivotTable Extensions.

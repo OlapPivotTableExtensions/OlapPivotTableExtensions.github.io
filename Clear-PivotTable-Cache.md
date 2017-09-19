@@ -4,18 +4,20 @@ If you have built a PivotTable with sensitive financial information, and you wan
 
 Starting with OLAP PivotTable Extensions version 0.7.2, the "Clear PivotTable Cache" feature addresses this problem. It allows you to blank out all the cached data in the PivotTable before you send out the Excel workbook. Right click on the PivotTable and choose this command:
 
-![](Clear PivotTable Cache_ClearPivotTableCache1.png)
+![](Clear%20PivotTable%20Cache_ClearPivotTableCache1.png)
 
 The PivotTable will then refresh and end up blank. Then save the workbook and distribute it. When the recipient opens up the workbook and refreshes it, the PivotTable will have data again.
 
-![](Clear PivotTable Cache_ClearPivotTableCache2.png)
+![](Clear%20PivotTable%20Cache_ClearPivotTableCache2.png)
 
 
 #### How This is Done Technically
 
 Behind the scenes, OLAP PivotTable Extensions is running the following MDX script statement on the connection for that one PivotTable. This statement temporarily nulls out the entire cube, only for your connection. Once this statement is run, the PivotTable is refreshed which blanks out the visible data.
 
-{"[Measures](Measures).AllMembers = null;"}
+```
+[Measures].AllMembers = null;
+```
 
 This type of statement is only supported by Analysis Services 2005 and later.
 

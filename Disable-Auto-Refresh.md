@@ -1,8 +1,8 @@
 ### Disable Auto Refresh
 
-New to release 0.8.3 is a feature to help with heavy Power Pivot users in Excel 2013. After every minor change in Power Pivot, all PivotTables refresh. This can be a huge time waster if you intend to make several Power Pivot model changes in a row. This scenario is described more fully in a [blog post by Greg Galloway](http://www.artisconsulting.com/blogs/greggalloway/Lists/Posts/Post.aspx?ID=26). To avoid this delay after each Power Pivot change, right click on a PivotTable connected to Power Pivot (the built-in Excel Data Model) and choose Disable Auto Refresh:
+New to release 0.8.3 is a feature to help with heavy Power Pivot users in Excel 2013. After every minor change in Power Pivot, all PivotTables refresh. This can be a huge time waster if you intend to make several Power Pivot model changes in a row. This scenario is described more fully in a [blog post by Greg Galloway](http://www.artisconsulting.com/blogs/greggalloway/2014/4/2/wait-power-pivot-dont-refresh-yet-ive-got-more-changes). To avoid this delay after each Power Pivot change, right click on a PivotTable connected to Power Pivot (the built-in Excel Data Model) and choose Disable Auto Refresh:
 
-![](Disable Auto Refresh_DisableAutoRefresh.png)
+![](Disable%20Auto%20Refresh_DisableAutoRefresh.png)
 
 This feature disables auto refresh on all PivotTables connected to that Power Pivot model (until you re-enable refresh).
 
@@ -10,18 +10,18 @@ Starting with release 0.8.4, this feature also disables [DAX query tables](http:
 
 Then make your batch of changes in Power Pivot. When you are done, right click the PivotTable again and choose Enable Auto Refresh:
 
-![](Disable Auto Refresh_EnableAutoRefresh.png)
+!![](Disable%20Auto%20Refresh_EnableAutoRefresh.png)
 
 Behind the scenes when you Enable Auto Refresh, it will trigger a refresh to PivotTables to update the field list and data in them. This could take some time if the model is complex, however this update was saved for the end of your batch of model changes.
 
 While Auto Refresh is disabled, do use the Power Pivot window (the Manage button on the left of the Power Pivot tab) and do use the measures grid.
-![](Disable Auto Refresh_UseMeasuresGrid.png)
+!![](Disable%20Auto%20Refresh_UseMeasuresGrid.png)
 
 However, **avoid** attempting to add a new measure using the New Calculated Field dropdown:
-![](Disable Auto Refresh_DisableAutoRefreshAvoidCalcMenu.png)
+!![](Disable%20Auto%20Refresh_DisableAutoRefreshAvoidCalcMenu.png)
 
 If you attempt to use that New Calculated Field menu while Auto Refresh is disabled, you will get the error "Could not add the field 'Your calculation' to the PivotTable because the formula is invalid."
-![](Disable Auto Refresh_DisableAutoRefreshCalcMeasureError.png)
+!![](Disable%20Auto%20Refresh_DisableAutoRefreshCalcMeasureError.png)
 
 Note: This feature is only visible in Excel 2013 against PivotTables connected to the Excel Data Model (i.e. Power Pivot model).
 

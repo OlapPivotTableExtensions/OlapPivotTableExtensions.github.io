@@ -9,10 +9,10 @@ Let's say you have a PivotTable listing customers on rows. You can display their
 #### Instructions
 Right click on a dimension member in the PivotTable and choose the following menu options...
 
-![](Show Property As Caption_ShowPropertyAsCaption.png)
+![](Show%20Property%20As%20Caption_ShowPropertyAsCaption.png)
 
 Then the PivotTable looks like the following:
 
-![](Show Property As Caption_ShowPropertyAsCaption2.png)
+![](Show%20Property%20As%20Caption_ShowPropertyAsCaption2.png)
 
 One advantage of the built-in "Show Properties In Report" feature is that the member properties come through into Excel with their proper datatypes. So a member property of datetime datatype comes across as such and can be formatted using Excel formatting. And numeric member properties come across as such and can be formatted in Excel. However, when you use any member property as a caption using the "Show Property as Caption" OLAP PivotTable Extensions feature, the caption comes across as a string and cannot be formatted in Excel, unfortunately.
