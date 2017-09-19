@@ -28,6 +28,17 @@
         </header>
     </div>
 
+    <div id="menu-wrap" class="outer">
+        <div class="inner">
+            <section id="menu">
+                <a href="{{site.url}}"><span class="button">Home</span></a>
+                <a href="{{ site.github.public_repositories.OlapPivotTableExtensions.releases_url }}"><span class="button">Releases</span></a>
+                <a href="{{ site.github.public_repositories.OlapPivotTableExtensions.issues_url }}"><span class="button">Issues</span></a>
+            </section>
+        </div>
+    </div>
+
+
     <!--accomodate tall download button-->
     <div style="height:30px"></div>
 
@@ -35,6 +46,7 @@
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
 
+            {{ site.github.public_repositories.OlapPivotTableExtensions.name }}; 
             {{ site.github.public_repositories.OlapPivotTableExtensions.latest_release.assets[0].browser_download_url }}
             repositories:<br />
             {% for repository in site.github.public_repositories %}
@@ -42,7 +54,7 @@
             {% endfor %}            
             
             releases:<br />
-            {% for release in site.github.releases %}
+            {% for release in site.github.public_repositories.OlapPivotTableExtensions.releases %}
             * [{{ release.name }}]({{ release.html_url }}) {{ release.assets[0].browser_download_url }}
             {% endfor %}
 

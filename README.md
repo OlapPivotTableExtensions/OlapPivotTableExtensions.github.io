@@ -98,19 +98,19 @@ Other features include:
 The following features are supported by version of Excel:
 
 Feature | Excel 2007 | Excel 2010 | [Excel 2013](Excel-2013) OLAP | [Excel 2013](Excel-2013) Power Pivot | Excel 2016 OLAP | Excel 2016 Power Pivot |
------------- | -------------
-| MDX Private Calculated Members | X | X | X |  | X |  |
-| View PivotTable MDX | X | X | X | X | X | X |
-| [Filter PivotTable to a List](Filter-List) | X | X | X | X | X | X |
-| [Search](Search) | X | X | X | X | X | X |
-| Change PivotTable Defaults | X | X | X |  | X |  |
-| [Clear PivotTable Cache](Clear-PivotTable-Cache) | X | X | X |  | X |  | 
-| [Show Property as Caption](Show-Property-as-Caption) | X | X | X |  | X |  |
-| [About Tab](About-Tab) | X | X | X | X | X | X |
-| [Upgrade PivotTable](About-Tab) | X | X | X | X | X | X |
-| [View #VALUE! Error Message](View-Error-Message) | X | X | X |  | X |  |
-| [Disable Auto Refresh](Disable-Auto-Refresh) | | | | X |  | X |
-| [Choose Fields to Show](Choose-Fields-to-Show) | X | X | X | X | X | X |
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+MDX Private Calculated Members | X | X | X |  | X | 
+View PivotTable MDX | X | X | X | X | X | X
+[Filter PivotTable to a List](Filter-List) | X | X | X | X | X | X
+[Search](Search) | X | X | X | X | X | X
+Change PivotTable Defaults | X | X | X |  | X | 
+[Clear PivotTable Cache](Clear-PivotTable-Cache) | X | X | X |  | X |  
+[Show Property as Caption](Show-Property-as-Caption) | X | X | X |  | X 
+[About Tab](About-Tab) | X | X | X | X | X | X
+[Upgrade PivotTable](About-Tab) | X | X | X | X | X | X
+[View #VALUE! Error Message](View-Error-Message) | X | X | X |  | X | 
+[Disable Auto Refresh](Disable-Auto-Refresh) | | | | X |  | X
+[Choose Fields to Show](Choose-Fields-to-Show) | X | X | X | X | X | X
 
 #### Installation Requirements
 
