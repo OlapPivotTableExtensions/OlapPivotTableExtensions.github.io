@@ -11,7 +11,7 @@ The first thing to try is to restart Excel. If you install OLAP PivotTable Exten
 
 If you click on the PivotTable then press Alt-F11 then Ctrl-G then paste the following into the Immediate window and press enter:
 
-?ActiveCell.PivotTable.PivotCache().OLAP
+`?ActiveCell.PivotTable.PivotCache().OLAP`
 
 Does it say True?
 
@@ -40,11 +40,11 @@ If you prefer to troubleshoot the installation manually, then use the following 
 
 The first thing to check is whether OLAP PivotTable Extensions is disabled. Click on the File button (in the top left) and choose Options. Click on the add-ins tab, then scroll down and see if OLAP PivotTable Extensions is disabled:
 
-![](Troubleshooting Installation_AddInsDialog.png)
+![](Troubleshooting%20Installation_AddInsDialog.png)
 
 If it is disabled, then select "Disabled Items" from the Manage dropdown at the bottom and click Go. Then enable the add-in using this dialog:
 
-![](Troubleshooting Installation_DisabledItems.png)
+![](Troubleshooting%20Installation_DisabledItems.png)
 
 Then check whether the add-in is inactive using the following instructions.
 
@@ -53,11 +53,11 @@ Then check whether the add-in is inactive using the following instructions.
 
 Then check whether OLAP PivotTable Extensions is inactive. Click on the Office button (in the top left in Excel) and choose Excel Options. Click on the add-ins tab, then scroll down and see if OLAP PivotTable extensions is in the inactive list:
 
-![](Troubleshooting Installation_InactiveAddInsDialog.png)
+![](Troubleshooting%20Installation_InactiveAddInsDialog.png)
 
 If it is inactive, then select "COM Add-ins" from the Manage dropdown at the bottom and click Go. Then check OLAP PivotTable Extensions and click OK.
 
-![](Troubleshooting Installation_ComAddInsDialog.png)
+![](Troubleshooting%20Installation_ComAddInsDialog.png)
 
 Then repeat the instructions above making sure it is now active, not inactive.
 
