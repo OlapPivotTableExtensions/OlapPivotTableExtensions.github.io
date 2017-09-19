@@ -1,0 +1,1 @@
+Documentation for OLAP PivotTable Extensions can be found under the [Home](Home) tab.
