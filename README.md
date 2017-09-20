@@ -126,12 +126,9 @@ If OLAP PivotTable Extensions is not visible in Excel, please consult the [Troub
 
 #### Feedback
 
-To report bugs or suggestions, please post an item to the [Issue Tracker](http://www.codeplex.com/OlapPivotTableExtend/WorkItem/List.aspx) tab.
+To report bugs or suggestions, please post an item to the [Issues List](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/issues) tab.
 
 To ask questions about MDX formulas such as the formulas used for private PivotTable calculations, see our [Calculations Help](Calculations-Help) page, or post a question to the [MDX tag on StackOverflow](http://stackoverflow.com/questions/tagged/mdx) or the [Microsoft Analysis Services Forum](http://social.msdn.microsoft.com/forums/en-US/sqlanalysisservices/threads/), or contact your Analysis Services administrator.
-
-To discuss OLAP PivotTable Extensions, please start a thread on the [Discussions](http://www.codeplex.com/OlapPivotTableExtend/Thread/List.aspx) tab.
-
 
 #### Updates
 

@@ -112,4 +112,4 @@ _Known Issue:_ Especially when searching for multiple search terms, the performa
 
 
 
-_Note:_ The search feature code was designed so that the [CubeSearcher class](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/blob/master/OlapPivotTableExtensions/CubeSearcher.cs) has no knowledge of Excel. That makes it completely standalone so it can be reused in other custom UIs. Just be sure to credit this project and post a discussion topic if you make enhancements so we can consider pushing those enhancements back into OLAP PivotTable Extensions.
+_Note:_ The search feature code was designed so that the [CubeSearcher class](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/blob/master/OlapPivotTableExtensions/CubeSearcher.cs) has no knowledge of Excel. That makes it completely standalone so it can be reused in other custom UIs. Just be sure to credit this project and let us know if you make enhancements so we can consider pushing those enhancements back into OLAP PivotTable Extensions.
