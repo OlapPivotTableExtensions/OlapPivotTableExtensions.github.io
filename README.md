@@ -21,9 +21,9 @@ They appear in the Field List pane at the very top under the Values grouping:
 
 ![](Home_AvgTaxFieldList.png)
 
-For help with advanced calculation properties for these private PivotTable calculations, or for help with MDX expressions, refer to our [Calculations Help](Calculations-Help) page.
+For help with advanced calculation properties for these private PivotTable calculations, or for help with MDX expressions, refer to our [Calculations Help](Calculations-Help.md) page.
 
-Thankfully, in [Excel 2013](Excel-2013) Microsoft does provide a [UI for building MDX calculations](Excel-2013.md) for the first time. It even includes a drag and drop field and function list. So use OLAP PivotTable Extensions in Excel 2013 for some of the other features it offers, which are detailed below. Unfortunately, Excel 2013 removed support for adding MDX calculated measures to PivotTables on Power Pivot models.
+Thankfully, in [Excel 2013](Excel-2013.md) Microsoft does provide a [UI for building MDX calculations](Excel-2013.md) for the first time. It even includes a drag and drop field and function list. So use OLAP PivotTable Extensions in Excel 2013 for some of the other features it offers, which are detailed below. Unfortunately, Excel 2013 removed support for adding MDX calculated measures to PivotTables on Power Pivot models.
 
 **Best Practice:** In order to ensure a single version of the truth, it is a best practice to define important calculations as part of the cube source code. But some calculations like simple ratios or differences may clutter the cube and may be more appropriate if defined in the PivotTable itself. In addition, certain ad hoc research or prototyping may be more appropriate to be done as calculations private to a PivotTable until they are finalized and are ready to be added to the cube source code.
 
@@ -52,7 +52,7 @@ The MDX is exactly what is sent to the server with one exception. Any private ca
 
 #### Filtering PivotTable to a List
 
-A common scenario is having a list of items you wish to research in a PivotTable. Instead of manually checking each item in the filter dropdown, you can use the [Filter List](Filter-List) feature from OLAP PivotTable Extensions:
+A common scenario is having a list of items you wish to research in a PivotTable. Instead of manually checking each item in the filter dropdown, you can use the [Filter List](Filter-List.md) feature from OLAP PivotTable Extensions:
 
 ![](Home_FilterListDialog.png)
 
@@ -71,7 +71,7 @@ Finding what you’re looking for in a cube can sometimes be challenging, but th
 
 ![](Home_SearchTab.png)
 
-For more detailed information about the Search feature, see the dedicated [Search](Search) page.
+For more detailed information about the Search feature, see the dedicated [Search](Search.md) page.
 
 
 #### Distributing PivotTables
@@ -97,20 +97,20 @@ Other features include:
 
 The following features are supported by version of Excel:
 
-Feature | Excel 2007 | Excel 2010 | [Excel 2013](Excel-2013) OLAP | [Excel 2013](Excel-2013) Power Pivot | Excel 2016 OLAP | Excel 2016 Power Pivot |
+Feature | Excel 2007 | Excel 2010 | [Excel 2013](Excel-2013.md) OLAP | [Excel 2013](Excel-2013.md) Power Pivot | Excel 2016 OLAP | Excel 2016 Power Pivot |
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 MDX Private Calculated Members | X | X | X |  | X | 
 View PivotTable MDX | X | X | X | X | X | X
-[Filter PivotTable to a List](Filter-List) | X | X | X | X | X | X
-[Search](Search) | X | X | X | X | X | X
+[Filter PivotTable to a List](Filter-List.md) | X | X | X | X | X | X
+[Search](Search.md) | X | X | X | X | X | X
 Change PivotTable Defaults | X | X | X |  | X | 
-[Clear PivotTable Cache](Clear-PivotTable-Cache) | X | X | X |  | X |  
-[Show Property as Caption](Show-Property-As-Caption) | X | X | X |  | X 
-[About Tab](About-Tab) | X | X | X | X | X | X
-[Upgrade PivotTable](About-Tab) | X | X | X | X | X | X
-[View #VALUE! Error Message](View-Error-Message) | X | X | X |  | X | 
-[Disable Auto Refresh](Disable-Auto-Refresh) | | | | X |  | X
-[Choose Fields to Show](Choose-Fields-to-Show) | X | X | X | X | X | X
+[Clear PivotTable Cache](Clear-PivotTable-Cache.md) | X | X | X |  | X |  
+[Show Property as Caption](Show-Property-As-Caption.md) | X | X | X |  | X 
+[About Tab](About-Tab.md) | X | X | X | X | X | X
+[Upgrade PivotTable](About-Tab.md) | X | X | X | X | X | X
+[View #VALUE! Error Message](View-Error-Message.md) | X | X | X |  | X | 
+[Disable Auto Refresh](Disable-Auto-Refresh.md) | | | | X |  | X
+[Choose Fields to Show](Choose-Fields-to-Show.md) | X | X | X | X | X | X
 
 #### Installation Requirements
 
@@ -122,13 +122,13 @@ Change PivotTable Defaults | X | X | X |  | X |
 
 #### Troubleshooting Installation
 
-If OLAP PivotTable Extensions is not visible in Excel, please consult the [Troubleshooting Installation](Troubleshooting-Installation) page.
+If OLAP PivotTable Extensions is not visible in Excel, please consult the [Troubleshooting Installation](Troubleshooting-Installation.md) page.
 
 #### Feedback
 
 To report bugs or suggestions, please post an item to the [Issues List](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/issues) tab.
 
-To ask questions about MDX formulas such as the formulas used for private PivotTable calculations, see our [Calculations Help](Calculations-Help) page, or post a question to the [MDX tag on StackOverflow](http://stackoverflow.com/questions/tagged/mdx) or the [Microsoft Analysis Services Forum](http://social.msdn.microsoft.com/forums/en-US/sqlanalysisservices/threads/), or contact your Analysis Services administrator.
+To ask questions about MDX formulas such as the formulas used for private PivotTable calculations, see our [Calculations Help](Calculations-Help.md) page, or post a question to the [MDX tag on StackOverflow](http://stackoverflow.com/questions/tagged/mdx) or the [Microsoft Analysis Services Forum](http://social.msdn.microsoft.com/forums/en-US/sqlanalysisservices/threads/), or contact your Analysis Services administrator.
 
 #### Updates
 
@@ -138,4 +138,4 @@ To keep up-to-date with future enhancements, subscribe to the following RSS feed
 
 #### Acknowledgments and Additional Information
 
-For links to other resources about PivotTables, view our [Acknowledgments and Additional Information](Acknowledgments-and-Additional-Information) page.
+For links to other resources about PivotTables, view our [Acknowledgments and Additional Information](Acknowledgments-and-Additional-Information.md) page.

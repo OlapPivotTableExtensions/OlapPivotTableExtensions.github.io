@@ -1,6 +1,5 @@
 ---
 description: "A feature to empty the contents of an OLAP PivotTable before sharing with a colleague"
-canonical_url: 'https://olappivottableextensions.github.io/Clear-PivotTable-Cache'
 ---
 ### Clear PivotTable Cache
 

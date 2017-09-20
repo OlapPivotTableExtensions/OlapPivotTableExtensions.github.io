@@ -1,6 +1,5 @@
 ---
 description: "A feature to temporarily prevent PivotTables from refreshing every time you make a change in Power Pivot"
-canonical_url: 'https://olappivottableextensions.github.io/Disable-Auto-Refresh'
 ---
 ### Disable Auto Refresh
 

@@ -56,7 +56,7 @@ The “description” property (and the “Folder” property) is only searched 
 
 #### USE CASE #5: Searching with multiple search terms
 
-Starting with release 0.8.4, you can now search for multiple search terms. Though the [Filter List](Filter-List) feature allows filtering to multiple search terms with an exact match, the Search feature can be much more powerful. First, the Filter List feature only allows exact matches while the Search feature allows partial matches. Second, the Search feature allows previewing the search results and choosing the ones to add to the PivotTable.
+Starting with release 0.8.4, you can now search for multiple search terms. Though the [Filter List](Filter-List.md) feature allows filtering to multiple search terms with an exact match, the Search feature can be much more powerful. First, the Filter List feature only allows exact matches while the Search feature allows partial matches. Second, the Search feature allows previewing the search results and choosing the ones to add to the PivotTable.
 
 To search for multiple search terms, press the little down arrow button next to Find Next:
 

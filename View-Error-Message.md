@@ -1,6 +1,5 @@
 ---
 description: "A feature which retrieves the detailed error message behind #VALUE! in a PivotTable"
-canonical_url: 'https://olappivottableextensions.github.io/View-Error-Message'
 ---
 ## View #VALUE! Error Message
 

@@ -1,6 +1,5 @@
 ---
 description: "A feature that filters a PivotTable to a list of items in your clipboard"
-canonical_url: 'https://olappivottableextensions.github.io/Filter-List'
 ---
 ### Filter List
 

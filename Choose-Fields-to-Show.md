@@ -1,6 +1,5 @@
 ---
 description: "A feature which lets you quickly choose which levels to show in an OLAP PivotTable"
-canonical_url: 'https://olappivottableextensions.github.io/Choose-Fields-to-Show'
 ---
 ### Choose Fields to Show
 

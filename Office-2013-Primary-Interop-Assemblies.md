@@ -1,6 +1,5 @@
 ---
 description: "Manual install instructions or .NET extensibility features in Office 2013"
-canonical_url: 'https://olappivottableextensions.github.io/Office-2013-Primary-Interop-Assemblies'
 ---
 ## Office 2013 Primary Interop Assemblies
 

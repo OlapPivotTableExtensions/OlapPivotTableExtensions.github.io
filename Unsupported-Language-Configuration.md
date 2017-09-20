@@ -1,6 +1,5 @@
 ---
 description: "Explanation of a currently unsupported set of language settings in OLAP PivotTable Extensions"
-canonical_url: 'https://olappivottableextensions.github.io/Unsupported-Language-Configuration'
 ---
 ## Unsupported Language Configuration
 

@@ -29,16 +29,16 @@ The Excel Blog also covered this feature [here](http://blogs.office.com/b/micros
 As you can see, it greatly improves upon the calculation management UI from the OLAP PivotTable Extensions add-in by adding a very nice field list and function list. So why would you continue using OLAP PivotTable Extensions? Starting with release 0.8.0, OLAP PivotTable Extensions adds support for Excel 2013. The add-in also offers these other features:
 
 * View PivotTable MDX
-* [Filter PivotTable to a List](Filter-List)
-* [Search](Search)
+* [Filter PivotTable to a List](Filter-List.md)
+* [Search](Search.md)
 * Change PivotTable Defaults
-* [Clear PivotTable Cache](Clear-PivotTable-Cache)
-* [Show Property as Caption](Show-Property-As-Caption)
-* [About Tab](About-Tab)
-* [Upgrade PivotTable](About-Tab)
-* [View #VALUE! Error Message](View-Error-Message)
-* [Disable Auto Refresh](Disable-Auto-Refresh)
-* [Choose Fields To Show](Choose-Fields-to-Show)
+* [Clear PivotTable Cache](Clear-PivotTable-Cache.md)
+* [Show Property as Caption](Show-Property-As-Caption.md)
+* [About Tab](About-Tab.md)
+* [Upgrade PivotTable](About-Tab.md)
+* [View #VALUE! Error Message](View-Error-Message.md)
+* [Disable Auto Refresh](Disable-Auto-Refresh.md)
+* [Choose Fields To Show](Choose-Fields-to-Show.md)
 
 
 #### Excel Data Model
