@@ -88,12 +88,12 @@ Using Excel 2007/2010/2013/2016 and OLAP PivotTable Extensions to edit an Excel 
 
 Other features include:
 
-* [Clear PivotTable Cache](Clear-PivotTable-Cache)
-* [Show Property as Caption](Show-Property-As-Caption)
-* [About Tab](About-Tab)
-* [View #VALUE! Error Message](View-Error-Message)
-* [Disable Auto Refresh](Disable-Auto-Refresh)
-* [Choose Fields to Show](Choose-Fields-to-Show)
+* [Clear PivotTable Cache](Clear-PivotTable-Cache.md)
+* [Show Property as Caption](Show-Property-As-Caption.md)
+* [About Tab](About-Tab.md)
+* [View #VALUE! Error Message](View-Error-Message.md)
+* [Disable Auto Refresh](Disable-Auto-Refresh.md)
+* [Choose Fields to Show](Choose-Fields-to-Show.md)
 
 The following features are supported by version of Excel:
 
