@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Acknowledgments and Additional Information
 description: Various resources related to Excel and PivotTables particularly on top of cubes.
 ---
