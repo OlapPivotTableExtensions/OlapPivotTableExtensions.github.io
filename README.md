@@ -1,6 +1,6 @@
 **OLAP PivotTable Extensions** is an Excel add-in which extends the functionality of PivotTables on Analysis Services cubes. The Excel API has certain PivotTable functionality which is not exposed in the UI. OLAP PivotTable Extensions provides an interface for some of this functionality. It also adds some new features like searching cubes, configuring default settings, and filtering to a list in your clipboard. The add-in can be launched from the following menu option in the right-click menu for PivotTables:
 
-This page is currently under construction. The current home page for [OLAP PivotTable Extensions](http://olappivottableextend.codeplex.com/) is still on Codeplex. Please be patient as we migrate to Github.
+This page is currently under construction as we migrate off our old [Codeplex page](http://olappivottableextend.codeplex.com/) is still on Codeplex.
 
 
 ![](Home_menu.png)

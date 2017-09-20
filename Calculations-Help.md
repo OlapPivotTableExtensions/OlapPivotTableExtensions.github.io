@@ -93,4 +93,4 @@ That being said, using OLAP PivotTable Extensions to add calculations to a Power
 
 Note the Solve_Order workaround mentioned in the following [discussion](https://olappivottableextend.codeplex.com/discussions/219957). Also note the tips on troubleshooting DAX errors in PowerPivot mentioned in that discussion. Finally, note that the calculations you can add in OLAP PivotTable Extensions are MDX calculations, not DAX calculations.
 
-Unfortunately, PowerPivot for Excel 2013, which comes installed with Excel, but has to be activated under COM Add-ins, has removed the ability add MDX calculations to PivotTables. For more about Excel 2013 and the Excel Data Model, see the [Excel 2013](Excel-2013.md) page.
+Unfortunately, PowerPivot for Excel 2013, which comes installed with Excel, but has to be activated under COM Add-ins, has removed the ability add MDX calculations to PivotTables. For more about Excel 2013 and the Excel Data Model, see the [Excel 2013](Excel-2013) page.
