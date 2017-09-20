@@ -23,7 +23,7 @@ They appear in the Field List pane at the very top under the Values grouping:
 
 For help with advanced calculation properties for these private PivotTable calculations, or for help with MDX expressions, refer to our [Calculations Help](Calculations-Help) page.
 
-Thankfully, in [Excel 2013](Excel-2013) Microsoft does provide a [UI for building MDX calculations](Excel-2013) for the first time. It even includes a drag and drop field and function list. So use OLAP PivotTable Extensions in Excel 2013 for some of the other features it offers, which are detailed below. Unfortunately, Excel 2013 removed support for adding MDX calculated measures to PivotTables on Power Pivot models.
+Thankfully, in [Excel 2013](Excel-2013) Microsoft does provide a [UI for building MDX calculations](Excel-2013.md) for the first time. It even includes a drag and drop field and function list. So use OLAP PivotTable Extensions in Excel 2013 for some of the other features it offers, which are detailed below. Unfortunately, Excel 2013 removed support for adding MDX calculated measures to PivotTables on Power Pivot models.
 
 **Best Practice:** In order to ensure a single version of the truth, it is a best practice to define important calculations as part of the cube source code. But some calculations like simple ratios or differences may clutter the cube and may be more appropriate if defined in the PivotTable itself. In addition, certain ad hoc research or prototyping may be more appropriate to be done as calculations private to a PivotTable until they are finalized and are ready to be added to the cube source code.
 

@@ -1,6 +1,5 @@
 ---
 description: "A feature that searches a cube field list or dimension members by name or description."
-canonical_url: 'https://olappivottableextensions.github.io/Search'
 ---
 ### Search
 

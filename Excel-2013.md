@@ -1,6 +1,5 @@
 ---
 description: "Excel 2013 improvements and what remaining OLAP PivotTable Extensions functionality is still useful. Describes the Excel Data Model and click-to-run installation"
-canonical_url: 'https://olappivottableextensions.github.io/Excel-2013'
 ---
 ## Excel 2013
 
