@@ -1,3 +1,7 @@
+---
+description: "An installation troubleshooting guide for the OLAP PivotTable Extensions add-in for Excel"
+canonical_url: 'https://olappivottableextensions.github.io/Troubleshooting-Installation'
+---
 ### Troubleshooting Installation
 
 This page is the guide for troubleshooting installation issues with OLAP PivotTable Extensions.

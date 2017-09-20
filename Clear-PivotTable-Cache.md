@@ -1,3 +1,7 @@
+---
+description: "A feature to empty the contents of an OLAP PivotTable before sharing with a colleague"
+canonical_url: 'https://olappivottableextensions.github.io/Clear-PivotTable-Cache'
+---
 ### Clear PivotTable Cache
 
 If you have built a PivotTable with sensitive financial information, and you want to pass it along to colleagues, the cube may define role based security such that each colleague is allowed to see a different portion of the financial statement. Unfortunately, when you email an Excel workbook with a PivotTable, you are emailing both the cached PivotTable view you last saw and a connected PivotTable that can be refreshed under your coleague's permissions. The cached data may be a security breach.

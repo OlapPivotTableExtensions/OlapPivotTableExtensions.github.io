@@ -1,3 +1,7 @@
+---
+description: "A feature that filters a PivotTable to a list of items in your clipboard"
+canonical_url: 'https://olappivottableextensions.github.io/Filter-List'
+---
 ### Filter List
 
 A common scenario is having a list of items you wish to research in a PivotTable. You have this list of items in your clipboard, so instead of manually checking each item in the filter dropdown, you can use the Filter List feature from OLAP PivotTable Extensions.

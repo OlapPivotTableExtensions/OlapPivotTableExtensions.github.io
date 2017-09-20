@@ -1,3 +1,7 @@
+---
+description: "A feature to temporarily prevent PivotTables from refreshing every time you make a change in Power Pivot"
+canonical_url: 'https://olappivottableextensions.github.io/Disable-Auto-Refresh'
+---
 ### Disable Auto Refresh
 
 New to release 0.8.3 is a feature to help with heavy Power Pivot users in Excel 2013. After every minor change in Power Pivot, all PivotTables refresh. This can be a huge time waster if you intend to make several Power Pivot model changes in a row. This scenario is described more fully in a [blog post by Greg Galloway](http://www.artisconsulting.com/blogs/greggalloway/2014/4/2/wait-power-pivot-dont-refresh-yet-ive-got-more-changes). To avoid this delay after each Power Pivot change, right click on a PivotTable connected to Power Pivot (the built-in Excel Data Model) and choose Disable Auto Refresh:

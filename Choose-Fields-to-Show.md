@@ -1,3 +1,7 @@
+---
+description: "A feature which lets you quickly choose which levels to show in an OLAP PivotTable"
+canonical_url: 'https://olappivottableextensions.github.io/Choose-Fields-to-Show'
+---
 ### Choose Fields to Show
 
 In a PivotTable, Excel allows the user to hide or show individual levels from a multi-level hierarchy. However, hiding multiple levels can be a slow process since you must uncheck levels one at a time and the PivotTable refreshes after each level individually is hidden. The Choose Fields to Show feature of OLAP PivotTable Extensions was added in release 0.8.4 to address this pain point. It allows showing or hiding multiple fields at once.

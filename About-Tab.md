@@ -1,3 +1,7 @@
+---
+description: "The OLAP PivotTable Extensions About tab tells the user which version of OLAP PivotTable Extensions they are using and whether Excel is 32-bit or 64-bit. It also displays some troubleshooting information around Windows and Excel languages in use. If you want to report bugs or feature suggestions, follow the link provided, and be sure to include the version and language information in your bug report."
+canonical_url: 'https://olappivottableextensions.github.io/About-Tab'
+---
 ### About Tab
 
 The About tab tells the user which version of OLAP PivotTable Extensions they are using and whether Excel is 32-bit or 64-bit. It also displays some troubleshooting information around Windows and Excel languages in use. If you want to report bugs or feature suggestions, follow the link provided, and be sure to include the version and language information in your bug report.

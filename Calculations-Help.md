@@ -1,3 +1,7 @@
+---
+description: "Resources and examples of MDX calculations that can be used in OLAP PivotTable Extensions"
+canonical_url: 'https://olappivottableextensions.github.io/Calculations-Help'
+---
 ### Calculations Help
 
 This page is a resource for the OLAP PivotTable Extensions if you are creating private PivotTable calculations and need help. The formula used is a standard Analysis Services MDX expression. All formulas are executed on the Analysis Services server.

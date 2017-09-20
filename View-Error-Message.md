@@ -1,3 +1,7 @@
+---
+description: "A feature which retrieves the detailed error message behind #VALUE! in a PivotTable"
+canonical_url: 'https://olappivottableextensions.github.io/View-Error-Message'
+---
 ## View #VALUE! Error Message
 
 A PivotTable may contain one or more cells which contain error messages. Unfortunately, Excel does not expose the error message causing the error. OLAP PivotTable Extensions version 0.8.1 adds a feature which allows you to see the error message:

@@ -1,3 +1,7 @@
+---
+description: "A feature which shows a member property instead of the member name in an OLAP PivotTable"
+canonical_url: 'https://olappivottableextensions.github.io/Show-Property-As-Caption'
+---
 ### Show Property as Caption
 
 

@@ -1,3 +1,7 @@
+---
+description: "Manual install instructions or .NET extensibility features in Office 2013"
+canonical_url: 'https://olappivottableextensions.github.io/Office-2013-Primary-Interop-Assemblies'
+---
 ## Office 2013 Primary Interop Assemblies
 
 #### Installation Instructions
@@ -14,4 +18,4 @@ On Windows 7, go to Start... Control Panel... Uninstall a program. Right click o
 
 Make sure .NET Programmability Support is set to "Run from My Computer" as shown in the following image:
 
-![](Office 2013 Primary Interop Assemblies_Office2013PIA.png)
+![](Office%202013%20Primary%20Interop%20Assemblies_Office2013PIA.png)

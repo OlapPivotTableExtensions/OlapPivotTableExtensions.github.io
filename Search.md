@@ -1,3 +1,7 @@
+---
+description: "A feature that searches a cube field list or dimension members by name or description."
+canonical_url: 'https://olappivottableextensions.github.io/Search'
+---
 ### Search
 
 Finding what you’re looking for in a cube can sometimes be challenging, but the Search feature of OLAP PivotTable Extensions can help. It lets you text search the items in the Field List and their descriptions. It also lets you text search the dimension members in your cube.
