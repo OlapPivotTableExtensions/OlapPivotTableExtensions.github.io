@@ -89,7 +89,7 @@ Using Excel 2007/2010/2013/2016 and OLAP PivotTable Extensions to edit an Excel 
 Other features include:
 
 * [Clear PivotTable Cache](Clear-PivotTable-Cache)
-* [Show Property as Caption](Show-Property-as-Caption)
+* [Show Property as Caption](Show-Property-As-Caption)
 * [About Tab](About-Tab)
 * [View #VALUE! Error Message](View-Error-Message)
 * [Disable Auto Refresh](Disable-Auto-Refresh)
@@ -105,7 +105,7 @@ View PivotTable MDX | X | X | X | X | X | X
 [Search](Search) | X | X | X | X | X | X
 Change PivotTable Defaults | X | X | X |  | X | 
 [Clear PivotTable Cache](Clear-PivotTable-Cache) | X | X | X |  | X |  
-[Show Property as Caption](Show-Property-as-Caption) | X | X | X |  | X 
+[Show Property as Caption](Show-Property-As-Caption) | X | X | X |  | X 
 [About Tab](About-Tab) | X | X | X | X | X | X
 [Upgrade PivotTable](About-Tab) | X | X | X | X | X | X
 [View #VALUE! Error Message](View-Error-Message) | X | X | X |  | X | 

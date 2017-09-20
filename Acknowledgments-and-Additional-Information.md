@@ -1,6 +1,6 @@
 ---
-title: Acknowledgments and Additional Information
 description: Various resources related to Excel and PivotTables particularly on top of cubes.
+canonical_url: 'https://olappivottableextensions.github.io/Acknowledgments-and-Additional-Information'
 ---
 ### Acknowledgments and Additional Information
 
