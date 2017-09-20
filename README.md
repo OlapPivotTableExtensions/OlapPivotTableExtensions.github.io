@@ -97,20 +97,20 @@ Other features include:
 
 The following features are supported by version of Excel:
 
-Feature | Excel 2007 | Excel 2010 | [Excel 2013](Excel-2013.md) OLAP | [Excel 2013](Excel-2013.md) Power Pivot | Excel 2016 OLAP | Excel 2016 Power Pivot |
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-MDX Private Calculated Members | X | X | X |  | X | 
-View PivotTable MDX | X | X | X | X | X | X
-[Filter PivotTable to a List](Filter-List.md) | X | X | X | X | X | X
-[Search](Search.md) | X | X | X | X | X | X
-Change PivotTable Defaults | X | X | X |  | X | 
-[Clear PivotTable Cache](Clear-PivotTable-Cache.md) | X | X | X |  | X |  
-[Show Property as Caption](Show-Property-As-Caption.md) | X | X | X |  | X 
-[About Tab](About-Tab.md) | X | X | X | X | X | X
-[Upgrade PivotTable](About-Tab.md) | X | X | X | X | X | X
-[View #VALUE! Error Message](View-Error-Message.md) | X | X | X |  | X | 
-[Disable Auto Refresh](Disable-Auto-Refresh.md) | | | | X |  | X
-[Choose Fields to Show](Choose-Fields-to-Show.md) | X | X | X | X | X | X
+Feature | Excel 2007 | Excel 2010 | Excel [2013](Excel-2013.md)+ OLAP | Excel [2013](Excel-2013.md)+ Power Pivot
+------------ | ------------- | ------------- | ------------- | -------------
+MDX Private Calculated Members | X | X | X | 
+View PivotTable MDX | X | X | X | X
+[Filter PivotTable to a List](Filter-List.md) | X | X | X | X
+[Search](Search.md) | X | X | X | X | 
+Change PivotTable Defaults | X | X | X |
+[Clear PivotTable Cache](Clear-PivotTable-Cache.md) | X | X | X |
+[Show Property as Caption](Show-Property-As-Caption.md) | X | X | X 
+[About Tab](About-Tab.md) | X | X | X | X
+[Upgrade PivotTable](About-Tab.md) | X | X | X | X
+[View #VALUE! Error Message](View-Error-Message.md) | X | X | X |
+[Disable Auto Refresh](Disable-Auto-Refresh.md) | | | | X
+[Choose Fields to Show](Choose-Fields-to-Show.md) | X | X | X | X
 
 #### Installation Requirements
 
