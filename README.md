@@ -135,7 +135,9 @@ To discuss OLAP PivotTable Extensions, please start a thread on the [Discussions
 
 #### Updates
 
-To keep up-to-date with future enhancements, subscribe to the [Release RSS feed](http://olappivottableextend.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2folappivottableextend) or to the [All Project Updates RSS feed](http://olappivottableextend.codeplex.com/project/feeds/rss).
+To keep up-to-date with future enhancements, subscribe to the following RSS feeds:
+* [Source code commits feed](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/commits/master.atom)
+* [Releases feed](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases.atom) 
 
 #### Acknowledgments and Additional Information
 

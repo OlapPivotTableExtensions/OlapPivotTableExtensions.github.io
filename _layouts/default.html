@@ -9,7 +9,41 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
+    <link title="OLAP PivotTable Extensions Releases" href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases.atom" rel="alternate" type="application/atom+xml">
+    <link title="OLAP PivotTable Extensions Source Code Commits" href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/commits/master.atom" rel="alternate" type="application/atom+xml">
+
     {% seo %}
+
+    <style>
+        .button {
+            width: 80px;
+            margin: 0px 2px;
+            padding: 5px 10px;
+            height: 35px;
+            background: #bbbbbb;
+            color: black;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #0090ff;
+            color: white;
+        }
+
+        .button:hover a {
+            color: white;
+        }
+
+        .button a {
+            text-align: center;
+            vertical-align: middle;
+            margin: auto;
+        }
+
+        .button a:hover {
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,40 +62,6 @@
         </header>
     </div>
 
-<style>
-.button {
-    width: 80px;
-    margin: 0px 2px;
-    padding: 5px 10px;
-    height: 35px;
-    
-    background: #bbbbbb;
-    color:black;
-    font-weight: bold;
-}
-
-.button:hover  {
-    background: #0090ff;
-    color:white;
-}
-
-.button:hover a {
-    color:white;
-}
-
-.button a
-{
-    text-align: center;
-    vertical-align: middle;
-    margin:auto;
-}
-.button a:hover {
-    color:white;
-}
-    </style>
-
-    <!--accomodate tall download button-->
-    <div style="height:30px"></div>
 
     <div id="menu-wrap" class="outer">
         <div class="inner">
@@ -86,10 +86,6 @@
     <div id="footer_wrap" class="outer">
         <footer class="inner">
             <a id="forkme_banner" href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions">View Source Code on GitHub</a>
-
-            <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-
-            <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
         </footer>
     </div>
 

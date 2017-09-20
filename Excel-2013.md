@@ -30,12 +30,12 @@ As you can see, it greatly improves upon the calculation management UI from the 
 * [Search](Search)
 * Change PivotTable Defaults
 * [Clear PivotTable Cache](Clear-PivotTable-Cache)
-* [Show Property as Caption](Show-Property-as-Caption)
+* [Show Property as Caption](Show-Property-As-Caption)
 * [About Tab](About-Tab)
 * [Upgrade PivotTable](About-Tab)
 * [View #VALUE! Error Message](View-Error-Message)
 * [Disable Auto Refresh](Disable-Auto-Refresh)
-* [Choose Fields To Show](Choose-Fields-To-Show)
+* [Choose Fields To Show](Choose-Fields-to-Show)
 
 
 #### Excel Data Model
