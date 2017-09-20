@@ -56,29 +56,26 @@
 
             <table style="border-style:none; border-bottom-style:none; border-width:0px; padding:0px">
                 <tr>
-                    <td style="border-style:none; border-width:0px;">
+                    <td style="border-style:none; border-width:0px;" colspan="2">
                         <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
                         <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
                     </td>
-                    {% if site.show_downloads %}
+                </tr>
+                <tr>
+                    <td style="border-style:none; border-width:0px;">
+                        <section id="menu">
+                            <a href="{{site.url}}"><span class="button">Home</span></a>
+                            <a href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases"><span class="button">Releases</span></a>
+                            <a href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/issues"><span class="button">Issues</span></a>
+                        </section>
+                    </td>
                     <td width=96 style="vertical-align:bottom; border-style:none; border-width:0px;">
                         <SECTION>
                             <A href="{{ site.latest_download_url }}" title="Download the installer"><img src="images/download.png" alt="Download the installer" style="border: 0; box-shadow:none;" width=96 height=96 /></A>
                         </SECTION>
                     </td>
-                    {% endif %}
                 </tr>
             </table>
-
-            <div id="menu-wrap" class="outer">
-                <div class="inner" style="padding-top:10px;padding-bottom:10px">
-                    <section id="menu">
-                        <a href="{{site.url}}"><span class="button">Home</span></a>
-                        <a href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases"><span class="button">Releases</span></a>
-                        <a href="https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/issues"><span class="button">Issues</span></a>
-                    </section>
-                </div>
-            </div>
 
         </header>
     </div>
