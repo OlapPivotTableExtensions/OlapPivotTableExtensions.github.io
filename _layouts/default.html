@@ -89,6 +89,10 @@
         <section id="main_content" class="inner" style="padding-top:10px;padding-bottom:10px">
             {{ content }}
         </section>
+        <section id="ad_content" class="inner" style="padding-top:10px;padding-bottom:10px">
+            <div data-type="ad" data-publisher="olappivottableextensions.github.io" data-format="300x250" data-zone="bottom" data-tags="excel%2canalysis%20services%2cssas%2colap%2cpivottables%2cpowerpivot%2cadd-in%2ccube%2cmdx%2cplugin%2csearch%20field%20list%2ctabular%2cexcel%20services%2csearch%20cube%2csearch%20dimensions"></div>
+            <div data-type="ad" data-publisher="olappivottableextensions.github.io" data-format="300x250" data-zone="bottom" data-tags="excel%2canalysis%20services%2cssas%2colap%2cpivottables%2cpowerpivot%2cadd-in%2ccube%2cmdx%2cplugin%2csearch%20field%20list%2ctabular%2cexcel%20services%2csearch%20cube%2csearch%20dimensions"></div>
+        </section>
     </div>
 
     <!-- FOOTER  -->
@@ -108,6 +112,18 @@
         ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <script type='text/javascript'>
+    function _dmBootstrap(file) {
+        var _dma = document.createElement('script');
+        _dma.type = 'text/javascript';
+        _dma.async = true;
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js'); }
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000); })();
+    </script>
 </body>
 </html>
 
