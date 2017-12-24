@@ -27,8 +27,13 @@ Thankfully, in [Excel 2013](Excel-2013.md) Microsoft does provide a [UI for buil
 
 **Best Practice:** In order to ensure a single version of the truth, it is a best practice to define important calculations as part of the cube source code. But some calculations like simple ratios or differences may clutter the cube and may be more appropriate if defined in the PivotTable itself. In addition, certain ad hoc research or prototyping may be more appropriate to be done as calculations private to a PivotTable until they are finalized and are ready to be added to the cube source code.
 
-<i style="color: gray;font-size: smaller">Advertisement:</i><br />
+
+
+<br />
+<div style="color: gray;font-size: smaller; font-style: italic;">Advertisement:</div>
 <div data-type="ad" data-publisher="olappivottableextensions.github.io" data-format="300x250" data-zone="homepage" data-tags="excel%2canalysis%20services%2cssas%2colap%2cpivottables%2cpowerpivot%2cadd-in%2ccube%2cmdx%2cplugin%2csearch%20field%20list%2ctabular%2cexcel%20services%2csearch%20cube%2csearch%20dimensions"></div>
+<br />
+
 
 
 #### Calculations Library
