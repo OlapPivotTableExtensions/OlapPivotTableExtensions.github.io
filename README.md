@@ -28,6 +28,7 @@ Thankfully, in [Excel 2013](Excel-2013.md) Microsoft does provide a [UI for buil
 **Best Practice:** In order to ensure a single version of the truth, it is a best practice to define important calculations as part of the cube source code. But some calculations like simple ratios or differences may clutter the cube and may be more appropriate if defined in the PivotTable itself. In addition, certain ad hoc research or prototyping may be more appropriate to be done as calculations private to a PivotTable until they are finalized and are ready to be added to the cube source code.
 
 
+
 #### Calculations Library
 
 Since all calculations you define are private to that one PivotTable, OLAP PivotTable Extensions automatically creates a Calculations Library for you which contains all the calculations you create. This allows you to pick any previous calculation you've used from a dropdown and add it to the current PivotTable:
