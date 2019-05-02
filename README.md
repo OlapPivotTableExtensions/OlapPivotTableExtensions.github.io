@@ -138,6 +138,8 @@ To report bugs or suggestions, please post an item to the [Issues List](https://
 
 To ask questions about MDX formulas such as the formulas used for private PivotTable calculations, see our [Calculations Help](Calculations-Help.md) page, or post a question to the [MDX tag on StackOverflow](http://stackoverflow.com/questions/tagged/mdx) or the [Microsoft Analysis Services Forum](http://social.msdn.microsoft.com/forums/en-US/sqlanalysisservices/threads/), or contact your Analysis Services administrator.
 
+To contact the author privately go to the [contact](Contact) page.
+
 #### Updates
 
 To keep up-to-date with future enhancements, subscribe to the following RSS feeds:
