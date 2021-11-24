@@ -1,6 +1,6 @@
-**OLAP PivotTable Extensions** is an Excel add-in which extends the functionality of PivotTables on Analysis Services cubes. The Excel API has certain PivotTable functionality which is not exposed in the UI. OLAP PivotTable Extensions provides an interface for some of this functionality. It also adds some new features like searching cubes, configuring default settings, and filtering to a list in your clipboard. The add-in can be launched from the following menu option in the right-click menu for PivotTables:
+**OLAP PivotTable Extensions** is an Excel add-in which extends the functionality of PivotTables on all types Analysis Services cubes. It supports Analysis Services Tabular, Analysis Services Multidimensional, Azure Analysis Services, and Power BI (both Analyze in Excel and the XMLA endpoint).
 
-This page is currently under construction as we migrate off our old [Codeplex page](http://olappivottableextend.codeplex.com/) is still on Codeplex.
+The Excel API has certain PivotTable functionality which is not exposed in the UI. OLAP PivotTable Extensions provides an interface for some of this functionality. It also adds some new features like searching cubes, configuring default settings, and filtering to a list in your clipboard. The add-in can be launched from the following menu option in the right-click menu for PivotTables:
 
 
 ![](Home_menu.png)
@@ -53,7 +53,7 @@ If a PivotTable is performing poorly or returning incorrect numbers, it may be n
 
 ![](Home_AvgTaxMDX2.png)
 
-Starting with release 0.7.3, you can check the checkbox in the top right in order to send your MDX query to a [web service](http://blogs.msdn.com/b/business_intelligence_labs/archive/2011/09/13/format-mdx-amp-dax-web-service-for-formatting-is-available.aspx) for formatting, thanks to Nick Medveditskov. Note: This web service is currently down with no ETL on when it will be back up.
+Starting with release 0.7.3, you can check the checkbox in the top right in order to send your MDX query to a [web service](http://blogs.msdn.com/b/business_intelligence_labs/archive/2011/09/13/format-mdx-amp-dax-web-service-for-formatting-is-available.aspx) for formatting, thanks to Nick Medveditskov. _Note: This web service is currently down with no ETA on when it will be back up._
 
 The MDX is exactly what is sent to the server with one exception. Any private calculations you've created for your PivotTable are defined as session calculated members. The MDX query exposed on the MDX tab displays the formulas for these calculations as query calculated members in the WITH clause of the MDX query. This allows an administrator to copy and paste the MDX query and troubleshoot it more easily in Management Studio or [MDX Studio](https://www.sqlbi.com/tools/mdx-studio/).
 
@@ -122,15 +122,15 @@ Change PivotTable Defaults | X | X | X |
 
 #### Installation Requirements
 
-* Excel 2013 or Excel 2016 is required.
+* Excel 2013 or Excel 2016 or Office 365 (Microsoft 365) is required.
 	* For older versions, see the [last release to support Excel 2007 and Excel 2010](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases/tag/v0.8.4).
-* Access to a cube on an Analysis Services server or to the built in Excel Data Model (Power Pivot) is required
+* Access to a cube on an Analysis Services server or to the built in Excel Data Model (Power Pivot) or to Power BI is required
 * NET Framework version 4.5.2 is required.
 * See the [Latest Release page](https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases/latest) for the installer and for release notes
 
 #### Troubleshooting Installation
 
-If OLAP PivotTable Extensions is not visible in Excel, please consult the [Troubleshooting Installation](Troubleshooting-Installation.md) page.
+If OLAP PivotTable Extensions is not visible in Excel or you have problems connecting to your server, please consult the [Troubleshooting Installation and Connections](Troubleshooting-Installation.md) page.
 
 #### Feedback
 

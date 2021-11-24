@@ -1,9 +1,9 @@
 ---
 description: "An installation troubleshooting guide for the OLAP PivotTable Extensions add-in for Excel"
 ---
-### Troubleshooting Installation
+### Troubleshooting Installation and Connections
 
-This page is the guide for troubleshooting installation issues with OLAP PivotTable Extensions.
+This page is the guide for troubleshooting installation and connection issues with OLAP PivotTable Extensions.
 
 **Restarting Excel After Installation**
 
@@ -65,3 +65,10 @@ If it is inactive, then select "COM Add-ins" from the Manage dropdown at the bot
 Then repeat the instructions above making sure it is now active, not inactive.
 
 
+
+**Troubleshooting Connections**
+
+* [Azure Analysis Services](https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-connect-excel) - OLAP PivotTable Extensions will strip User ID="" and Password="" from the connection string. It is OK if the User ID connection string property has your email address or UPN. It's OK if the Password connection string property has your password. But neither User ID or Password are required. OLAP PivotTable Extensions will popup a sign-in dialog if needed.
+* [Power BI Analyze in Excel](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-analyze-in-excel) - OLAP PivotTable Extensions will popup a login dialog to allow you to sign into Power BI. Then it will use the resulting access token for connections to Analyze in Excel.
+* [Power BI XMLA endpoints](https://docs.microsoft.com/en-us/power-bi/admin/service-premium-connect-tools) - A User ID must be specified. If the connection string says User ID="" then OLAP PivotTable Extensions will prompt you for your email address or UPN and add this to the connection string and then prompt for authentication to Power BI.
+* All HTTP-type connections force use of TLS 1.2 as of OLAP PivotTable Extensions v0.9.6

@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate 
 name: OLAP PivotTable Extensions
 title: OLAP PivotTable Extensions
-description: An Excel add-in which extends the functionality of PivotTables on Analysis Services cubes and of the Excel Data Model (Power Pivot)
-latest_download_url: "https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases/download/v0.9.5/OLAP.PivotTable.Extensions.Setup.v0.9.5.exe"
+description: "An Excel add-in which extends the functionality of PivotTables on Analysis Services cubes, the Excel Data Model (Power Pivot), and Power BI"
+latest_download_url: "https://github.com/OlapPivotTableExtensions/OlapPivotTableExtensions/releases/download/v0.9.6/OLAP.PivotTable.Extensions.Setup.v0.9.6.exe"
